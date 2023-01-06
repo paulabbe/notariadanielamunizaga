@@ -1,0 +1,48 @@
+body{
+ margin: 0;
+ border: 0;
+ padding: 0;
+ font-family: 'Raleway', sans-serif;
+ 
+}
+.azul{
+    background-color:rgb(10, 10, 24);
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-start;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+     opacity: 1;
+}
+.hr{
+  border: 2px;
+}
+.rectangulo{
+    background-color: #E0EBF4;
+    font-family: 'Montserrat', sans-serif;
+    padding-block: 0%;
+    
+}
+.Daniela{
+    font-size: 46px;
+}
+.segunda{
+    font-size: 21px;
+}
+
+.btn{
+    background-color:#152745 ;
+}
+.borde{
+    border-style: double;
+    border-width: 4px;
+    border-color:#b3abab
+    
+}
+.contenido{
+    font-size:20px ;
+}
+.parrafo{
+    font-size:17px;
+}
