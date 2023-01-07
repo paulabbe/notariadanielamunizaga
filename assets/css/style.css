@@ -81,6 +81,43 @@ body{
 }
 
 
+/* Media Queries */
+
+@media (max-width: 992px) {
+    .Daniela{
+        font-size: 36px;
+    }
+    .rectangulo{
+        width: 100%;
+        padding: 40px 4rem;
+        background-color: #E0EBF4;
+        font-family: 'Montserrat', sans-serif;
+        padding-block: 0%;
+    }
+    .img{
+        display: none;
+    }
+    .azul {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .Daniela{
+        font-size: 36px;
+        margin-top: 0!important;
+    }
+    .rectangulo{
+        left: 0;
+        right: 0;
+        width: 100vw;
+        padding-right: 0;
+        padding-left: 12px;
+    }
+}
+
+/* Animations */
+
  @-webkit-keyframes slide-in-top {
     0% {
       -webkit-transform: translateY(-1000px);
