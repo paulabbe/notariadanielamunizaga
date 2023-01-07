@@ -1,28 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
- margin: 0;
- border: 0;
- padding: 0;
- font-family: 'Raleway', sans-serif;
- 
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
 }
 .azul{
     background-color:rgb(10, 10, 24);
     display: flex;
-    align-items:flex-end;
-    justify-content:flex-start;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-end;
     font-size: 20px;
     color: white;
     text-transform: uppercase;
-     opacity: 1;
+    opacity: 1;
+    padding: 0 0 80px 1em;
 }
+
+.azul > *:first-child {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
 .hr{
-  border: 2px;
+    border: 2px;
 }
 .rectangulo{
+    position: relative;
+    left: -4.5rem;
+    width: 60vw;
+    padding: 40px 4rem;
     background-color: #E0EBF4;
     font-family: 'Montserrat', sans-serif;
     padding-block: 0%;
-    
 }
 .Daniela{
     font-size: 46px;
@@ -45,4 +62,15 @@ body{
 }
 .parrafo{
     font-size:17px;
+}
+
+.img {
+    background-image: url("../images/5219947.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ps-6{
+    padding-left: 4.5rem;
 }
