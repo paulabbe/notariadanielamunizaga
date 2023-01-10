@@ -43,7 +43,7 @@ body{
     left: -1.5rem;
     z-index: 1;
     width: 60vw;
-    padding: 40px 4rem;
+    padding: 40px 2rem 40px 8rem;
     background-color: #E0EBF4;
     font-family: 'Montserrat', sans-serif;
     padding-block: 0%;
@@ -110,6 +110,10 @@ body{
     font-size: 0.7rem;
 }
 
+.fs-lg-1 {
+    font-size: 1rem;
+}
+
 /* Media Queries */
 
 @media (max-width: 991px) {
@@ -128,7 +132,6 @@ body{
         background-color: #E0EBF4;
         font-family: 'Montserrat', sans-serif;
         padding-block: 0%;
-        
         left: -16px;
         right: 0;
         width: 100vw;
